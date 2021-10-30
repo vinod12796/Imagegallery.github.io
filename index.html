@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Search</li>
+                <input type="text">
+            </ul>
+        </nav>
+    </header>
+    <div class="full-img" id="fullimgbox">
+        <img src="Images/Tech 1.jpg" alt="Image1" id="fullimg">
+        <span onclick="closefullimg()">X</span>
+    </div>
+
+    <div class="img-Gallery">
+        <img src="Images/Tech 1.jpg" alt="Image1" onclick="openfullimg(this.src)">
+        <img src="Images/Tech 2.jpg" alt="Image1" onclick="openfullimg(this.src)">
+        <img src="Images/Tech 3.jpg" alt="Image1" onclick="openfullimg(this.src)">
+        <img src="Images/Tech 4.jpg" alt="Image1" onclick="openfullimg(this.src)">
+        <img src="Images/Nature 1.jpg" alt="Image1" onclick="openfullimg(this.src)">
+        <img src="Images/Nature 2.jpg" alt="Image1" onclick="openfullimg(this.src)">
+        <img src="Images/Nature 3.jpg" alt="Image1" onclick="openfullimg(this.src)">
+        <img src="Images/Nature 4.jpg" alt="Image1" onclick="openfullimg(this.src)">
+        <img src="Images/Animal 1.jpg" alt="Image1" onclick="openfullimg(this.src)">
+        <img src="Images/Animal 2.jpg" alt="Image1" onclick="openfullimg(this.src)">
+        <img src="Images/Animal 3.jpg" alt="Image1" onclick="openfullimg(this.src)">
+        <img src="Images/Animal 4.jpg" alt="Image1" onclick="openfullimg(this.src)">
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
